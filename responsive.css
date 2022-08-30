@@ -1,0 +1,916 @@
+@media screen and (max-width: 1500px) {
+    .container{
+        max-width: 1500px;
+        width: 100%;
+    }
+    .navbar{
+        padding: 14px 100px;
+        background-color: #353535;
+    }
+    .top-login{
+        font-size: 27px;
+    }
+    .hero-sec{
+        width: 100%;
+        height: 900px;
+    }
+    .hig-cls-contianer{
+        margin: 75px 40px 0;
+    }
+    .hig-cls-contianer p{
+        margin: 60px 0;
+    }
+    .pay-option{
+        width: 228px;
+    }
+    .pay-option h1{
+        font-size: 51px;
+    }
+    .after-pay-container{
+        width: 1058px;
+        margin: 85px auto;
+    }
+    .after-content h2{
+        font-size: 28px;
+    }
+    .pay-attached-box-two{
+        width: 400px;
+    }
+  }
+
+@media screen and (max-width: 1300px){
+    .container{
+        max-width: 1300px;
+        width: 100%;
+    }
+    .hero-sec{
+        height: 800px;
+    }
+    .hero-sec-container h1{
+        font-size: 85px;
+    }
+    .hero-sec-container p{
+        font-size: 35px;
+    }
+    .brown-child{
+        width: 482px;
+        height: 463px;
+    }
+    .brown-content{
+        margin: 62px 10px 22px 20px;
+    }
+    .brown-content h2{
+        font-size: 22px;
+    }
+    .brown-content p{
+        font-size: 14px;
+        line-height: 15px;
+        margin: 32px 0;
+    }
+    .why-need-container{
+        width: 1000px;
+    }
+    .why-need-container h1{
+        font-size: 40px;
+    }
+    .why-need-detail h5{
+        font-size: 16px;
+    }
+    .high-cls-img{
+        width: 60%;
+    }
+    .pay-options{
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+    .pay-option{
+        width: 268px;
+        margin: 20px 7px;
+        padding-bottom: 30px;
+    }
+    .why-inner{
+        margin-top: 18px;
+    }
+    .why-inner h2{
+        padding-top: 28px;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .why-inner p{
+        margin: 0 20px;
+        padding-bottom: 36px;
+        font-size: 16px;
+    }
+    .third-why-container h3{
+        font-size: 24px;
+    }
+    .third-why-container p{
+        font-size: 14px;
+    }
+    .third-why-container h1{
+        font-size: 30px;
+    }
+    .pay-attached-box-two{
+        width: 320px;
+    }
+    .footer-container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .footer-content-container{
+        margin: 0 10px;
+    }
+    .footer-content{
+        padding: 72px 46px;
+    }
+
+}
+
+@media screen and (max-width: 1100px){
+    .container{
+        max-width: 1100px;
+        width: 100%;
+    }
+    .hero-sec{
+        width: 100%;
+        height: 800px;
+    }
+    .hero-sec-container{
+        padding: 200px 100px;
+    }
+    .hero-sec-container h1{
+        font-size: 75px;
+    }
+    .hero-sec-container p{
+        font-size: 30px;
+    }
+    .hero-account, .hero-contact{
+        width: 231px;
+    }
+    .hero-account img, .hero-contact img{
+        width: 24px;
+        height: 24px;
+        margin: 14px 5px;
+    }
+    .pay-attached-box{
+        width: 240px;
+        margin: 0 10px;
+        padding: 24px 28px;
+    }
+    .pay-attached-box h3{
+        font-size: 24px;
+    }
+    .brown-child{
+        width: 430px;
+        height: 420px;
+    }
+    .why-need-container{
+        margin: 400px auto 60px;
+        width: 900px;
+    }
+    .high-class > *{
+        width: 50%
+    }
+    .pay-safe{
+        width: 850px;
+    }
+    .after-pay-container{
+        width: 850px;
+        margin: 75px auto;
+    }
+    .after-content h2{
+        font-size: 25px;
+    }
+
+    .why-inner h2{
+        padding-top: 16px;
+        font-size: 20px;
+    }
+    .why-inner p{
+        margin: 0 10px;
+        padding-bottom: 16px;
+        font-size: 14px;
+    }
+    .third-why-container h3{
+        font-size: 18px;
+    }
+    .third-why-container p{
+        font-size: 14px;
+    }
+    .third-why-container h1{
+        font-size: 31px;
+    }
+    .pay-advantage-box{
+        width: 90%;
+        margin-left: 10%;
+    }
+    .pay-two-container{
+        width: 872px;
+    }
+    .pay-attached-box-two{
+        width: 270px;
+    }
+    .tution-fee{
+        margin-top: 422px;
+    }
+    .tution-content{
+        width: 852px;
+    }
+    .faq-container{
+        width: 850px;
+        margin: 100px auto;
+    }
+    .faq-second-pic img{
+        width: 401px;
+        height: 261px;
+    }
+    .faq-content img{
+        width: 401px;
+    }
+    .trusted-by{
+        width: 850px;
+        margin: 68px auto 31px;
+    }
+    .pay-two-container-last{
+        width: 850px;
+    }
+    .global-partner{
+        margin: 150px 20px 28px;
+    }
+    .global-partner h1{
+        font-size: 40px;
+    }
+    .global-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-content-container{
+        margin: 0 10px;
+    }
+    .footer-content{
+        padding: 52px 26px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .container{
+        max-width: 900px;
+        width: 100%;
+    }
+    .hero-sec{
+        height: 800px;
+    }
+    .hero-sec-buttons button{
+        margin: 20px 12px;
+    }
+    .secure-conv-container{
+        width: 670px;
+    }
+    .secure-conv-container p{
+        margin: 13px 10px;
+        font-size: 16px;
+    }
+    .pay-smart-container h1{
+        font-size: 40px;
+    }
+    .pay-smart-container p{
+        font-size: 16px;
+    }
+    .pay-attached-box{
+        width: 220px;
+        padding: 34px 18px;
+    }
+    .pay-attached-box h3{
+        font-size: 27px;
+    }
+    .pay-attached-box h5{
+        font-size: 22px;
+    }
+    .pay-attached-box p{
+        font-size: 15px;
+        margin-top: 12px;
+    }
+    .brown-child{
+        width: 350px;
+        height: 313px;
+        display: flex;
+        flex-direction: column;
+    }
+    .brown-content{
+        margin: 5px 10px;
+        width: 100%;
+    }
+    .brown-content h2{
+        font-size: 20px;
+    }
+    .break{
+        display: none;
+    }
+    .brown-content p{
+        font-size: 12px;
+        line-height: 15px;
+        margin: 10px 0;
+        white-space: pre-line;
+    }
+    .why-need-container{
+        margin: 287px 20px 100px;
+        width: 100%;
+    }
+    .why-need-container h1{
+        margin-bottom: 18px;
+        font-size: 30px;
+    }
+    .why-need-options{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0 20px;
+    }
+    .why-need-detail h5{
+        white-space: nowrap;
+    }
+    .pay-safe{
+        margin: 100px auto 38px;
+        width: 680px;
+    }
+    .pay-safe h1{
+        font-size: 40px;
+    }
+    .pay-safe p{
+        font-size: 16px;
+        margin: 18px;
+    }
+    .pay-options{
+        padding-top: 18px;
+        grid-template-columns: auto auto;
+    }
+    .after-pay-container{
+        display: grid;
+        width: 680px;
+        margin: 65px auto;
+    }
+    .after-content{
+        margin: 10px 15%;
+    }
+    .why-wait{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .first-why, .thired-why{
+        width: 92%;
+        margin: 0 4%;
+    }
+    .second-why{
+        width: 92%;
+        margin: 0 4%;
+    }
+    .why-inner{
+        margin-bottom: 20px;
+    }
+    .why-inner p{
+        margin: 0 5%;
+        padding-bottom: 25px;
+        font-size: 2vw;
+    }
+    .third-why-container h3{
+        font-size: 4vw;
+    }
+    .third-why-container p{
+        font-size: 2vw;
+    }
+    .third-why-container h1{
+        font-size: 6vw;
+    }
+    .pay-advantage-box{
+        width: 90%;
+        margin-left: 10vw;
+    }
+    .pay-two-container{
+        width: 390px;
+        padding-top: 50px;
+    }
+    .pay-two-container h1{
+        font-size: 35px;
+        white-space: nowrap;
+    }
+    .pay-two-container p{
+        font-size: 16px;
+    }
+    .pay-attached-box-two{
+        width: 225px;
+        margin: 0 12px;
+        padding: 30px 15px;
+    }
+    .pay-attached-box-two h1{
+        font-size: 26px;
+        margin-bottom: 16px;
+    }
+    .pay-attached-box-two p{
+        font-size: 14px;
+    }
+    .tution-content{
+        width: 685px;
+    }
+    .tution-content h1{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .tution-content p{
+        font-size: 16px;
+    }
+    .video-section{
+        height: 501px;
+        background-size: cover;
+        background-position: center;
+    }
+    .video-sec-content{
+        margin: 0 auto;
+        padding: 20% 10%;
+        width: 700px;
+    }
+    .video-sec-content p{
+        font-size: 16px;
+    }
+    .faq-container{
+        width: 685px;
+    }
+    .faq-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .faq-content > *{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .faq-content:nth-child(3){
+        display: none;
+    }
+    .faq-content img{
+        display: block;
+        margin: 0 auto;
+    }
+    .trusted-by{
+        width: 685px;
+        margin: 28px auto 21px;
+    }
+    .trusted-by h1{
+        font-size: 35px;
+    }
+    .trust-content-box{
+        display: flex;
+        margin: 10px auto;
+        justify-content: center;
+    }
+    .pay-two-container-last{
+        width: 685px;
+    }
+    .footer{
+        height: auto;
+    }
+    .footer-container{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .footer-content-container{
+        width: 60%;
+        margin: 20px auto;
+    }
+    .content{
+        width: 50%;
+    }
+    .content:nth-child(1){
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .container{
+        max-width: 700px;
+        width: 100%;
+    }
+    .hero-sec{
+        height: 450px;
+    }
+    .hero-sec-container{
+        padding: 60px 50px;
+    }
+    .hero-sec-container h1{
+        font-size: 50px;
+    }
+    .hero-sec-container p{
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .hero-sec-buttons{
+        margin: 25px 0;
+    }
+    .secure-conv-container{
+        margin: 40px auto;
+        width: 490px;
+    }
+    .secure-conv-container p{
+        font-size: 16px;
+    }
+    .pay-smart-container{
+        margin: 50px 30px;
+    }
+    .pay-smart-container h1{
+        font-size: 35px;
+        line-height: 41px;
+    }
+    .pay-smart-container p{
+        font-size: 16px;
+    }
+    .pay-smart-attached{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .pay-attached-box{
+        width: 80%;
+        margin: 10px auto;
+        padding: 24px 18px;
+    }
+    .brown-div{
+        margin-top: 390px;
+    }
+    .brown-container{
+        top: 147px;
+        flex-direction: column;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .brown-child{
+        width: 490px;
+        height: auto;
+        background-color: white;
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        margin-bottom: 20px;
+    }
+    .brown-child:nth-child(2){
+        padding: 20px;
+    }
+    .brown-content:nth-child(1){
+        margin-bottom: 30px;
+    }
+    .brown-content button{
+        margin-top: 20px;
+    }
+    .why-need-container{
+        margin: 600px auto 50px;
+        width: 490px;
+    }
+    .why-need-options{
+        grid-template-columns: auto;
+        margin: 0 10%;
+    }
+    .high-class{
+        flex-direction: column;
+    }
+    .high-class > *{
+        width: 99%;
+        margin: 30px auto;
+    }
+    .high-class > *:nth-child(2){
+        width: 100%;
+    }
+    .hig-cls-contianer{
+        width: 100%;
+        margin: 35px 20px 0;
+    }
+    .hig-cls-contianer h1{
+        font-size: 25px;
+        margin: 0 10px;
+    }
+    .hig-cls-contianer p{
+        margin: 20px 10px;
+        font-size: 15px;
+    }
+    .high-cls-img img{
+        width: 100%;
+    }
+    .pay-safe{
+        margin: 35px auto 20px;
+        width: 495px;
+    }
+    .pay-safe h1{
+        font-size: 30px;
+    }
+    .pay-safe p{
+        font-size: 16px;
+        margin: 10px;
+    }
+    .after-pay-container{
+        width: 495px;
+    }
+    .pay-two-container{
+        width: 495px;
+    }
+    .pay-two-container h1{
+        font-size: 35px;
+    }
+    .pay-two-container p{
+        font-size: 15px;
+        margin: 0 10px;
+    }
+    .pay-smart-attached-two{
+        flex-direction: column;
+    }
+    .pay-attached-box-two{
+        max-width: 400px;
+        width: 90vw;
+        margin: 10px 12px;
+    }
+    .tution-fee{
+        margin-top: 792px;
+    }
+    .tution-content{
+        width: 100%;
+        padding: 10% 0;
+    }
+    .tution-content h1{
+        font-size: 30px;
+        width: 90vw;
+        margin: 0 auto;
+    }
+    .tution-content p{
+        font-size: 16px;
+        width: 90vw;
+        margin: 0 auto;
+    }
+    .tution-second-bg{
+        top:  150px;
+    }
+    .video-section{
+        margin-top: 760px;
+        height: 400px;
+    }
+    .video-sec-content{
+        padding: 60px 18px;
+        width: 100%;
+    }
+    .faq-container{
+        width: 100%;
+    }
+    .trusted-by{
+        width: 495px;
+    }
+    .pay-two-container-last{
+        width: 495px;
+    }
+    .global-partner{
+        margin: 60px 20px 28px;
+    }
+    .global-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .very-last{
+        flex-direction: column;
+        margin: 15px auto;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .container{
+        max-width: 500px;
+        width: 100%;
+    }
+    .top-contact{
+        margin: 5px 10px;
+        height: 20px;
+    }
+    .top-email, .top-phone{
+        margin-right: 10px;
+    }
+    .top-email i, .top-phone i{
+        margin: auto 5px;
+    }
+    .top-email p, .top-phone p{
+        font-size: 9px;
+    }
+    .navbar{
+        padding: 15px 12px;
+        background-color: #353535;
+    }
+    .hero-sec{
+        height: 400px;
+    }
+    .hero-sec-container{
+        padding: 40px 25px;
+    }
+    .hero-sec-container h1{
+        font-size: 30px;
+    }
+    .hero-sec-container p{
+        font-size: 16px;
+        margin: 15px 0;
+    }
+    .hero-sec-buttons{
+        margin: 25px 0;
+    }
+    .hero-sec-buttons button{
+        font-size: 12px;
+        margin: 10px 5px;
+    }
+    .hero-account, .hero-contact{
+        width: 200px;
+    }
+    .secure-conv-container{
+        margin: 30px auto;
+        width: 290px;
+    }
+    .secure-conv-container h1{
+        font-size: 25px;
+    }
+    .secure-conv-container p{
+        font-size: 12px;
+    }
+    .pay-smart-container{
+        margin: 30px 10px;
+    }
+     
+    .pay-smart-container h1{
+        font-size: 25px;
+        line-height: 31px;
+    }
+    .pay-smart-container p{
+        font-size: 13px;
+    }
+    .brown-div{
+        margin-top: 470px;
+    }
+    .brown-container{
+        top: 187px;
+    }
+    .brown-child{
+        width: 290px;
+    }
+    .why-need-container{
+        margin: 550px auto 50px;
+        width: 290px;
+    }
+    .why-need-options{
+        grid-template-columns: auto;
+        margin: 0 2%;
+    }
+    .hig-cls-contianer{
+        margin: 20px 1% 0;
+    }
+    .pay-safe{
+        margin: 20px auto;
+        width: 295px;
+    }
+    .pay-safe h1{
+        font-size: 18px;
+    }
+    .pay-safe p{
+        font-size: 12px;
+        margin: 5px;
+    }
+    .after-pay-container{
+        width: 295px;
+    }
+    .pay-options{
+        grid-template-columns: auto;
+    }
+    .why-wait{
+        grid-template-columns: auto;
+    }
+    .why-inner p{
+        font-size: 12px;
+    }
+    .second-why{
+        margin: 15px 4%;
+    }
+    .third-why-container{
+        margin-top: 15px;
+    }
+    .third-why-container h3{
+        font-size: 22px;
+    }
+    .third-why-container p{
+        font-size: 12px;
+    }
+    .third-why-container h1{
+        font-size: 25px;
+        margin: 18px auto;
+    }
+    .pay-advantage-box{
+        width: 90%;
+        margin-left: 20%;
+    }
+    .pay-two-container{
+        width: 295px;
+    }
+    .pay-two-container h1{
+        font-size: 20px;
+    }
+       
+    .pay-two-container p{
+        font-size: 12px;
+    }
+    .tution-fee{
+        margin-top: 852px;
+    }
+    .tution-content h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .tution-content p{
+        font-size: 12px;
+    }
+    .video-sec-content{
+        padding: 100px 18px;
+    }
+    .faq-headline-main{
+        font-size: 21px;
+    }
+    .faq-content > *{
+        width: 95%;
+    }
+    .faq-content img{
+        width: 99%;
+    }
+    .trusted-by{
+        width: 295px;
+    }
+    .trust-content-box{
+        margin: 10px 2%;
+    }
+    .pay-two-container-last{
+        width: 295px;
+    }
+    .pay-two-container-last p{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .global-partner{
+        margin: 30px 10px 15px;
+    }
+    .global-partner h1{
+        font-size: 20px;
+    }
+      
+    .global-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .trust-content-box img{
+        margin-right: 15px;
+    }
+    .footer-content-container{
+        width: 95%;
+    }
+    .footer-content{
+        padding: 15px 10px;
+    }
+    .social-media p{
+        font-size: 12px;
+    }
+    .very-last-sec small{
+        font-size: 8px;
+    }
+
+
+
+
+ 
+
+ 
+   
+  
+
+  
+
+    
+
+
+  
+    
+    
+
+    
+
+  
+ 
+  
+ 
+    
+
+   
+   
+    .faq-container{
+        width: 100%;
+    }
+  
+   
+ 
+    .very-last{
+        flex-direction: column;
+        margin: 15px auto;
+        text-align: center;
+    }
+  
+}

@@ -1,0 +1,1067 @@
+:root{
+  --text-heading: #3A3A3A;;
+  --text-para: #484848;
+  --btn-bg: #EE9207;
+  --fontFamily: 'Inter', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f3f2f2;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1728px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.top-contact{
+    display: flex;
+    margin: 15px 51px;
+    height: 24px;
+    align-items: flex-start;
+}
+.top-email, .top-phone{
+    display: flex;
+    margin-right: 34px;
+    padding: 0;
+}
+.top-email i, .top-phone i{
+    margin: auto 10px;
+}
+.top-email p, .top-phone p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+}
+/*
+....................nav bar starts from here............
+*/
+.navbar{
+    padding: 15px 120px;
+    background-color: #353535;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.brand-logo{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 31px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.055em;
+    color: #E1E1E1; 
+}
+.brand-logo > *:nth-child(1){
+    margin-right: 5px;
+}
+.brand-logo:hover{
+    color: #E1E1E1; 
+}
+.nav-item{
+    padding: 12px 17px;
+}
+.nav-link{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #D5D5D5;
+}
+.nav-link:hover,.top-login:hover{
+    color: white;
+}
+.top-login{
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+    color: #B6B6B6;
+}
+/*
+  .............hero section starts from here..........
+*/
+
+.hero-sec{
+    width: 100%;
+    height: 1002px;
+    background-image: url('photos/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+.hero-sec-container{
+    padding: 260px 100px;
+}
+.hero-sec-container h1{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 95px;
+    color: #FFFFFF;
+}
+.hero-sec-container p{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;  
+    opacity: 0.77;
+    margin: 30px 0;
+}
+.hero-sec-buttons{
+    margin: 66px 0;
+}
+.hero-sec-buttons button{
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 12px;
+}
+.hero-account{
+    background: #D9880E;
+    color: #FFFFFF;
+    width: 331px;
+}
+.hero-account:hover{
+    background: #3E3D3D;
+}
+.hero-contact{
+    background: #3E3D3D;
+    color: #FFFFFF;
+    width: 331px;
+}
+.hero-contact:hover{
+    background: #D9880E;
+}
+.hero-account img, .hero-contact img{
+    width: 44px;
+    height: 44px;
+    margin: 14px 15px;
+}
+
+/*
+.......................Secure and convenient............
+*/
+
+.secure-conv-container{
+    margin: 50px auto;
+    text-align: center;
+    width: 870px;
+}
+.secure-conv-container h1{
+    color: #141414;
+    font-family: var(--font-family);
+    font-size: 30px;
+}
+.secure-conv-container p{
+    margin: 13px 40px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #141414;
+}
+
+/*
+...............pay smart section...........   
+*/
+
+.pay-smart-section{
+    width: 100%; 
+    height: 376px;
+    background-image: url('photos/giant-building-with-sun\ 1.jpg');
+    margin: 80px 0;
+    position: relative;
+}
+.pay-smart-container{
+    display: inline-block;
+    margin: 70px;
+    text-align: center;
+    color: white;
+}
+.pay-smart-container h1{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.pay-smart-container p{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.pay-smart-attached{
+    display: flex;
+    position: absolute;
+    top: 312px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.pay-attached-box{
+    width: 313px;
+    margin: 0 12px;
+    background-color:#FEFEFE;
+    padding: 54px 38px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+.pay-attached-box h3{
+    color: #3A3A3A;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 34px;
+}
+.pay-attached-box:hover{
+    background-color: #FFB547;
+}
+.pay-attached-box:hover > *{
+    color: white;
+}
+.pay-attached-box h5{
+    color: var(--text-heading);
+    font-family:  var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.01em;
+}
+.pay-attached-box p{
+    font-family:  var(--font-family);    
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 17.1735px;
+    line-height: 21px;
+    color: var(--text-para);
+    margin-top: 8px;
+}
+.brown-div{
+    position: relative;
+}
+.brown-back{
+    background: rgba(73, 44, 0, 0.5);
+    Height: 376px;
+    width: 100%;
+    z-index: -10;
+}
+.brown-container{
+    position: absolute;
+    top: 247px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.brown-child{
+    width: 632px;
+    height: 513px;
+    display: flex;
+}
+.brown-child img{
+    width: 100%;
+    height: 100%;
+}
+.brown-content{
+    margin: 102px 50px 102px 40px;
+    width: 50%;
+}
+.brown-content h2{
+    color: var(--text-heading);
+    font-family: var(--font-family); 
+    font-weight: 900;
+    font-size: 30.1981px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+}
+.brown-content p{
+    color: var(--text-para);
+    font-family: var(--font-family); 
+    font-weight: 400;
+    font-size: 14.2109px;
+    line-height: 28px;
+    margin: 52px 0;
+}
+.brown-content button{
+    width: 104px;
+    height: 34px;
+    background-color: #EE9207;
+    color: white;
+    border: none;
+    font-family:  var(--font-family); 
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brown-content button:hover{
+    background-color: #3E3D3D;
+}
+
+/*
+............why you need us section..............
+*/
+
+.why-need-container{
+    margin: 557px auto 133px;
+    width: 1280px;
+}
+.why-need-container h1{
+    text-align: center;
+    margin-bottom: 28px;
+    font-family:  var(--font-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -0.01em;
+    color: #F0A83D;
+}
+.why-need-options{
+    margin-top: 18px;
+}
+.why-need-box{
+    display: flex;
+    align-items: flex-start;
+    margin: 26px 0px;
+}
+.why-need-box img{
+    margin-right: 25px;
+}
+.why-need-detail h5{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18.2054px;
+    line-height: 22px;
+    color: #1F1F1F;
+}
+.why-need-detail p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--text-para);
+}
+
+/*
+   High class service section..................
+*/
+.high-class{
+    display: flex;
+    background-color: #F7F7F7;
+}
+.hig-cls-contianer{
+    margin: 75px 90px 0;
+}
+.hig-cls-contianer h1{
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: var(--text-heading);
+}
+.hig-cls-contianer p{
+    margin: 90px 0;
+    margin-right: 200px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17.1735px;
+    line-height: 31px;
+    color: var(--text-para); 
+}
+
+.hig-cls-contianer button{
+    width: 104px;
+    height: 34px;
+    background-color: #EE9207;
+    color: white;
+    border: none;
+    font-family:  var(--font-family); 
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hig-cls-contianer button:hover{
+    background-color: #3E3D3D;
+}
+
+/*
+  Pay safe section................
+*/
+
+.pay-safe{
+    margin: 185px auto 38px;
+    width: 972px;
+    text-align: center;
+}
+.pay-safe h1{
+    font-family: var(--font-family); 
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #F0A83D;
+}
+.pay-safe p{
+    font-family: var(--font-family); 
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2E2E2E;
+    margin: 38px;
+}
+.pay-options{
+    padding-top: 38px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 0 5%;
+}
+.pay-option{
+    width: 268px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 20px 7px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 10px rgb(160, 158, 158);
+}
+.pay-option h5{
+    padding-top: 30px;
+    font-family: var(--font-family); 
+    font-weight: 900;
+    font-size: 21.8483px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #202020;
+}
+.pay-option p{
+    font-family: var(--font-family); 
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.pay-option h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 61px;
+    line-height: 75px;
+    text-align: center;
+    color: #EFB256;
+}
+.doller{
+    font-size: 36px;
+    margin-right: 8px;
+}
+.pay-zero{
+    font-size: 27px;
+}
+.pay-advantage-box{
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 25%;
+}
+.pay-advantage{
+    position: relative;
+}
+.pay-advantage i{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #EB9A24;
+}
+.pay-advantage p{
+    font-family: var(--font-family); 
+    font-weight: 300;
+    font-size: 10.9242px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 20%;
+}
+
+.pay-option button{
+    width: 104px;
+    height: 34px;
+    background-color: #EE9207;
+    color: white;
+    border: none;
+    font-family:  var(--font-family); 
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.pay-option button:hover{
+    background-color: #3E3D3D;
+}
+
+.after-pay-container{
+    display: flex;
+    width: 1158px;
+    margin: 95px auto;
+}
+.after-content{
+    margin: 27px 14px 14px 50px;
+}
+.after-content h2{
+    font-family: var(--font-family); 
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #3A3A3A;
+    margin-bottom: 36px;
+}
+.after-content p{
+    font-family: var(--font-family); 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #484848;
+}
+/*
+      why wait section...........
+*/
+.why-wait{
+    display: flex;
+}
+.first-why, .thired-why{
+    width: 19%;
+    margin: 0 0.5%;
+}
+.first-why img, .second-why img{
+    width: 100%;
+}
+.second-why{
+    width: 38%;
+    margin: 0 0.5%;
+}
+.second-why > *:nth-child(1){
+    margin-bottom: 20px;
+}
+.why-inner{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 24px;
+    box-shadow: 0 0 10px rgb(160, 158, 158);
+}
+.why-inner h2{
+    padding-top: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family:  var(--font-family); 
+    font-weight: 900;
+    font-size: 28.4771px;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+    color: #303030;
+}
+.why-inner p{
+    margin: 0 40px;
+    padding-bottom: 36px;
+    font-family:  var(--font-family); 
+    font-weight: 400;
+    font-size: 20.3772px;
+    line-height: 25px;
+    color: #484848;
+}
+.thired-why{
+    box-shadow: 0 0 10px rgb(160, 158, 158);
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.third-why-container{
+    width: 100%;
+}
+.third-why-container h3{
+    font-family: var(--font-family); 
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -0.01em; 
+    color: #202020;
+    text-align: center;
+}
+.third-why-container p{
+    font-family: var(--font-family); 
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+.third-why-container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 51px;
+    text-align: center;
+    color: #EFBB56;
+    margin: 28px auto;
+}
+
+.pay-smart-two{
+    width: 100%;
+    height: 376px;
+    background: linear-gradient(135deg, hsla(36, 100%, 14%, 0.5), hsla(36, 98%, 16%, 0.5)),
+      url('photos/giant-building-with-sun\ 1.jpg');
+    margin-top: 147px;
+    position: relative;
+}
+.pay-two-container{
+    width: 972px;
+    margin: 0 auto;
+    padding-top: 69px;
+    text-align: center;
+    color: white;
+}
+.pay-two-container h1{
+    font-family: var(--font-family); 
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.pay-two-container p{
+    font-family: var(--font-family); 
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+.pay-smart-attached-two{
+    display: flex;
+    position: absolute;
+    top: 312px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.pay-attached-box-two{
+    width: 439px;
+    margin: 0 12px;
+    background-color:#FEFEFE;
+    padding: 40px 20px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    text-align: center;
+}
+.pay-attached-box-two h1{
+    font-family: var(--font-family); 
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: #4F4F4F;
+    margin-bottom: 20px;
+}
+.pay-attached-box-two p{
+    font-family: var(--font-family); 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: center;
+    color: #484848;
+}
+
+.pay-attached-box-two button{
+    width: 104px;
+    height: 34px;
+    background-color: #EE9207;
+    color: white;
+    border: none;
+    font-family:  var(--font-family); 
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.pay-attached-box-two button:hover{
+    background-color: #3E3D3D;
+}
+/*
+...............pay your tution fee.................
+*/
+.tution-fee{
+    margin-top: 342px;
+    position: relative;
+}
+.tution-content{
+    width: 972px;
+    margin: 0 auto;
+    text-align: center;
+}
+.tution-content h1{
+    font-family:  var(--font-family); 
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -0.01em;
+    color: #F0A83D;
+    margin-bottom: 15px;
+}
+.tution-content p{
+    font-family: var(--font-family); 
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    color: #2E2E2E;
+}
+.tution-first-bg{
+    background-image: url('photos/rectangle\ stripes.png');
+    background-size: cover;
+    width: 100%;
+    height: 843px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.tution-second-bg{
+    background-image: url('photos/sudents.png');
+    background-size: cover;
+    width: 1463px;
+    height: 906px;
+    position: absolute;
+    top:  50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*
+video section starts from here................
+*/
+.video-section{
+    width: 100%;
+    height: 601px;
+    background: linear-gradient(135deg, hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 3%, 0.7)),
+      url('photos/small-business\ 1.png');
+    margin-top: 920px;
+}
+.video-sec-content{
+    margin: 0 auto;
+    padding: 218px;
+    text-align: center;
+    width: 961px;
+}
+.video-sec-content img{
+    width: 86px;
+    height: 86px;
+    margin-bottom: 15px;
+}
+.video-sec-content h3{
+    font-family: var(--font-family); 
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #F0F0F0;
+}
+.video-sec-content p{
+    font-family: var(--font-family); 
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #CFCFCF;
+    margin-top: 10px;
+}
+
+/*
+  ......faq section starts from here................
+*/
+
+.faq-container{
+    width: 1028px;
+    margin: 100px auto;
+}
+.faq-content{
+    margin-bottom: 10px;
+}
+.faq-headline-main{
+    box-sizing: border-box;
+    padding: 59px 10px 59px 30px;
+    font-family: var(--font-family); 
+    font-size: 41px;
+    color: #F0A83D;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.01em;
+    box-shadow: 0 0 5px 4px #999;
+    width: 98%;
+    height: 98%;
+}
+.question-mark{
+    font-family: var(--font-family); 
+    font-weight: 700;
+    font-size: 270px;
+    line-height: 327px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #F0A83D;
+}
+.faq-second-pic img{
+    width: 491px;
+    height: 311px;
+}
+.faq-content-box{
+    margin: 17px 0;
+}
+.faq-content-box:nth-child(1){
+    margin-top: 0;
+}
+.faq-content-box h5{
+   padding: 20px 10px;
+   background-color: #E99F5A;
+   font-family:  var(--font-family); 
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.faq-content-box p{
+    display: none;
+    font-family: var(--font-family); 
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E2E2E;
+    padding: 25px 0;
+}
+.faq-content-box.show p{
+    display: block;
+}
+
+/*
+ trusted-by.................
+*/
+.trusted-by{
+    width: 988px;
+    margin: 68px auto 31px;
+}
+.trusted-by h1{
+    font-family: var(--font-family); 
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #F0A83D;
+}
+.trusted-container{
+    margin-top: 28px;
+    padding: 11px 0;
+}
+.trust-content-box{
+    display: flex;
+    align-items: flex-start;
+}
+.trust-content-box img{
+    margin-right: 25px;
+}
+.trust-content h5{
+    font-family: var(--font-family); 
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1F1F1F;
+}
+.trust-content p{
+    font-family: var(--font-family); 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #383838;
+}
+
+.pay-two-container-last{
+    width: 972px;
+    color: white;
+    height: 376px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*
+   global partner...........
+*/
+
+.global-partner{
+    margin: 264px 82px 28px;
+}
+.global-partner h1{
+    font-family: var(--font-family); 
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #A4A4A4;
+    margin-bottom: 30px;
+}
+.global-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.global-color h5{
+   color: #888888;
+}
+.global-color p{
+    color: #383838;
+}
+
+/*
+  footer content starts from here........
+*/
+.footer{
+    width: 100%;
+    height: 790px;
+    background: linear-gradient(135deg, hsla(0, 0%, 0%, 0.75), hsla(0, 0%, 3%, 0.75)),
+    url('photos/small-business\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    display: flex;
+}
+.footer-content-container{
+    margin: 0 20px;
+}
+.footer-content{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 92px 76px;
+}
+.content:nth-child(1){
+   margin-right: 14px;
+}
+.content a{
+    width: max-content;
+    display: block;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #EEEDED;
+}
+.content a:hover{
+    text-decoration: underline;
+}
+.content h6{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #E99F5A;
+    margin-bottom: 20px;
+}
+.social-media{
+    margin: 27px auto;
+}
+.social-all{
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+}
+.social-all a{
+    text-decoration: none;
+    float: left;
+    text-align: center;
+}
+.social-all .fa-brands{
+    width: 24px;
+    height: 24px;
+    background-color: #FFA500;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 0 3px;
+}
+.social-media p{
+    color: #FFFFFF;
+    margin-top: 15px;
+    text-align: center;
+}
+.very-last{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 45px 0;
+}
+.very-last-sec{
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
